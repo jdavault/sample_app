@@ -30,7 +30,9 @@ group :test do
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
   # gem 'launchy', '2.1.0'
-  # gem 'rb-fsevent', '0.9.1', :require => false
-  # gem 'growl', '1.0.3'
+  gem 'rb-fsevent', '0.9.3', :require => false
+  gem 'growl', '1.0.3'
+  gem 'guard-spork', '1.2.0'  
+  gem 'spork', '0.9.2'
 end
 
